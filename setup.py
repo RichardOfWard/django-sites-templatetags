@@ -6,7 +6,7 @@ setup(
     version=sites_templatetags.__version__,
     packages=['sites_templatetags', 'sites_templatetags.templatetags'],
     license='MIT',
-    description='Remove the ability to add or edit sites in Django\'s admin panel.',
+    description='The missing templatetags to get the current site from django.contrib.sites.',
     long_description=open('README.rst').read(),
     author='Richard Ward',
     author_email='richard@richard.ward.name',
